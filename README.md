@@ -31,12 +31,14 @@ Testing with cURL
 
 To test the client-server data transfer to upload.php, use the following cURL command:
 
+```
 curl -X POST \
   -H "Content-Type: application/x-www-form-urlencoded" \
   -d "customer=John Doe" \
   -d "initial_balance=100" \
   -d "transport_fare=20" \
   "http://iot.benax.rw/projects/4e8d42b606f70fa9d39741a93ed0356c/y2-2025/upload.php"
+```
 
 Parameters:
 	•	customer: Name of the customer.
