@@ -1,6 +1,4 @@
-Here’s the corrected ReadMe.md file formatted specifically to display properly on GitHub. GitHub Markdown uses proper indentation and formatting to ensure clarity.
-
-IoT-Backend
+#IoT-Backend
 
 RFID Transaction System - Guidance
 
@@ -87,5 +85,3 @@ data = {
 
 response = requests.post(url, data=data)
 print(response.text)
-
-This version adheres to GitHub’s Markdown standards for proper rendering. Let me know if you encounter further issues!
