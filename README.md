@@ -1,4 +1,4 @@
-#IoT-Backend
+# IoT-Backend
 
 RFID Transaction System - Guidance
 
@@ -85,3 +85,8 @@ data = {
 
 response = requests.post(url, data=data)
 print(response.text)
+
+Why This Works:
+	1.	Code Blocks: Code sections (e.g., commands, code snippets) are enclosed in triple backticks (```) for syntax highlighting on GitHub.
+	2.	Headings: Use #, ##, and ### for section titles.
+	3.	Lists: Use - or 1. for bullet points, and GitHub renders them correctly.
