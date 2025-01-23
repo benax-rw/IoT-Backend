@@ -74,6 +74,7 @@ Troubleshooting
 
 Use the following Python script with the requests library:
 
+```
 import requests
 
 url = "http://iot.benax.rw/projects/4e8d42b606f70fa9d39741a93ed0356c/y2-2025/upload.php"
@@ -85,8 +86,4 @@ data = {
 
 response = requests.post(url, data=data)
 print(response.text)
-
-Why This Works:
-	1.	Code Blocks: Code sections (e.g., commands, code snippets) are enclosed in triple backticks (```) for syntax highlighting on GitHub.
-	2.	Headings: Use #, ##, and ### for section titles.
-	3.	Lists: Use - or 1. for bullet points, and GitHub renders them correctly.
+```
